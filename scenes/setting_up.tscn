@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://druse1ornc3uh"]
+
+[sub_resource type="TileSet" id="TileSet_cwu60"]
+tile_shape = 1
+tile_size = Vector2i(256, 128)
+occlusion_layer_0/light_mask = 1
+
+[node name="Node2D" type="Node2D" unique_id=617688895]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=1791706521]
+tile_set = SubResource("TileSet_cwu60")
